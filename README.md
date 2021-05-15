@@ -22,3 +22,6 @@ https://lindseysatterfield-react-joke-generator.netlify.app/
 
 #### Contributors
 [Lindsey Satterfield](https://github.com/lindseysatterfield)
+
+#### Loom Walkthough
+[Loom](https://www.loom.com/share/38534ce78b8e480995d3f5b97e7597ad)
