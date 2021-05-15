@@ -2,5 +2,25 @@
 @import 'variables';
 
 body {
-  background-color: $favColor;
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+.App {
+  width: 30em;
+  margin: 0 auto;
+  background-color: antiquewhite;
+  padding: 5em;
+  margin: 1em;
+  border-radius: 15px;
+  margin-top: 1em;
+  text-align: center;
 }
