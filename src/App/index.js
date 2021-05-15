@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './App.scss';
+import { Button } from 'reactstrap';
 import getJoke from '../helpers/data/jokeData';
 
 function App() {
@@ -25,13 +25,16 @@ function App() {
   }, []);
 
   return (
-    <div className='App'>
-      <h2>{singleJoke.setup}</h2>
-      <p>{showPunchline ? singleJoke.punchline : ''}</p>
-      <button onClick={handleClick}>
-        {showPunchline ? 'Get another joke' : 'Get Punchline'}
-      </button>
-    </div>
+    <>
+      <h1 className="text-info mb-5" >Joke Generator!</h1>
+        <div className='App'>
+          <h2>{singleJoke.setup}</h2>
+          <p>{showPunchline ? singleJoke.punchline : ''}</p>
+          <Button color="info" className="mt-auto" onClick={handleClick}>
+            {showPunchline ? 'Get another joke' : 'Get Punchline'}
+          </Button>
+        </div>
+    </>
   );
 }
 
